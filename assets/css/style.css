@@ -45,6 +45,10 @@ a.button, a.button:visited {
     color: #FFFFFF;
 }
 
+a.button:hover {
+    background-color: #a7a7a75e;
+    color: #000;
+}
 .button { 
     text-align: center;
     padding: 23px 43px;
