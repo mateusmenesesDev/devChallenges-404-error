@@ -9,14 +9,23 @@
 .not-found {
     font-size: 24px;
     font-weight: 700;
-    margin-top: 40px;
     margin-left: 77px;
     font-family: 'Inconsolata';
+}
+
+main {
+    height: calc(90vh - 40px);
+    margin-top: 40px;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-around; */
+
+    /* align-items: flex-end; */
 }
 .container {
     margin-left: 20px;
     margin-right: 119px;
-    height: calc(100vh - 66px);
+    min-height: 100%;
     display: flex;
     align-items: center;
     gap: 120px;
@@ -72,10 +81,9 @@ footer {
 }
 
 .footer-content {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    bottom: 24px;
+    text-align: center;
+    padding: 10px;
+    /* margin-top: 30px; */
     min-width: 100%;
     font-family: 'Montserrat';
 }
@@ -88,7 +96,12 @@ footer {
 .footer-content a, .footer-content a:visited {
     color: #333333;
 }
-
+@media (max-height:601px) {
+    .footer-content {
+        position: static;
+    }
+    
+}
 @media (max-width:767px) {
 
     .container {
