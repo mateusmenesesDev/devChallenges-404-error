@@ -41,19 +41,16 @@
 
 }
 
-a, a:visited {
+a.button, a.button:visited {
     color: #FFFFFF;
-    
 }
 
-a { 
+.button { 
     text-align: center;
     padding: 23px 43px;
     font-weight: 700;
     font-size: 14px;
     display: inline-block;
-    /* width: 216px;
-    height: 68px; */
     background: #333333;
 }
 
@@ -76,7 +73,15 @@ footer {
     position: absolute;
     bottom: 24px;
     min-width: 100%;
+}
+
+.footer-content p,
+.footer-content a{
     font-family: 'Montserrat';
+}
+
+.footer-content a, .footer-content a:visited {
+    color: #333333;
 }
 
 @media (max-width:767px) {
