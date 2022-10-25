@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/mattzteugithub/devChallenges-404-error/blob/main/screenshot%20projeto%20pronto.png)
+![screenshot](https://github.com/mattzteugithub/devChallenges-404-error/blob/main/preview/preview.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
